@@ -1,0 +1,36 @@
+<form (submit)="sendContact()">
+<mat-form-field appearance="fill">
+	<mat-label>Vorname: </mat-label>
+	<input matInput [formControl]="firstname">
+</mat-form-field>
+<mat-form-field appearance="fill">
+	<mat-label>Nachname: </mat-label>
+	<input matInput [formControl]="lastname">
+</mat-form-field>
+<mat-form-field appearance="fill">
+	<mat-label>Postleitzahl: </mat-label>
+	<input matInput [formControl]="zipcode">
+</mat-form-field>
+<mat-form-field appearance="fill">
+	<mat-label>Stadt: </mat-label>
+	<input matInput [formControl]="city">
+</mat-form-field>
+<mat-form-field appearance="fill">
+	<mat-label>Straße: </mat-label>
+	<input matInput [formControl]="street">
+</mat-form-field>
+<mat-form-field appearance="fill">
+	<mat-label>Hausnummer: </mat-label>
+	<input matInput [formControl]="housenumber">
+</mat-form-field>
+<mat-form-field appearance="fill">
+	<mat-label>Telefonnummer: </mat-label>
+	<input matInput [formControl]="phone">
+</mat-form-field>
+<mat-form-field appearance="fill">
+	<mat-label>Email: </mat-label>
+	<input matInput [formControl]="email">
+</mat-form-field>
+<button mat-button>Submit</button>
+</form>
+

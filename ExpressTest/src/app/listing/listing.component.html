@@ -1,0 +1,11 @@
+<h1>{{title}}</h1>
+<h2>This is a basic Express Contact App</h2>
+<p>{{base}}</p>
+<ul>
+<li *ngFor="let contactdatum of contactdata">
+<app-contact [contact]="contactdatum"></app-contact>
+</li>
+</ul>
+<button mat-button (click)="showContact()">Get</button>
+<p>Neu?</p>
+<app-contactinput></app-contactinput>
