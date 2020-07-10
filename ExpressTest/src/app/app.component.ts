@@ -10,7 +10,6 @@ import { Component } from '@angular/core';
 		</ul>
 	</nav>
 		<router-outlet></router-outlet>
-		Hello Darkness my old friend!
 	`,
   styleUrls: ['./app.component.scss']
 })
